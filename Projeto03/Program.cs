@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Projeto03.Controller;
+using System;
 
 namespace Projeto03
 {
@@ -10,6 +7,10 @@ namespace Projeto03
     {
         static void Main(string[] args)
         {
+            ClienteController clienteController = new ClienteController();
+            clienteController.InsertCliente();
+
+            Console.ReadKey();
         }
     }
 }

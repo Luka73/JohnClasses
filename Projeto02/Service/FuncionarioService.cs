@@ -72,7 +72,6 @@ namespace Projeto02.Service
             doc.Save(xmlFile);
         }
 
-
         public string LerArquivoTxt()
         {
             using (StreamReader sr = new StreamReader(txtFile))
